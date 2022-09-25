@@ -3,7 +3,7 @@ Django To Do App sets you up for success by helping you manage and complete your
 
 ## Check it out!
 
-[ToDo app on Heroku](???)
+[ToDo app on Heroku](https://to-do-list-lite.herokuapp.com/)
 
 ## Installation
 
