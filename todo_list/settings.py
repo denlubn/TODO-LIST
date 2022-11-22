@@ -28,7 +28,11 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET_KEY", "django-insecure-n1ypgm%(#3lrgw
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['127.0.0.1', 'to-do-list-lite.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'todo-list-lite.onrender.com']
+
+INTERNAL_IPS = [
+    '127.0.0.1',
+]
 
 
 # Application definition
